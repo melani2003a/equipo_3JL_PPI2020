@@ -124,6 +124,7 @@
     height:120px;
     background-color:black;
 }
+
 .btn-83{
     width: 25%;
     margin-left: 50px;
@@ -153,7 +154,8 @@
     width: 30%;
     margin-left: 240px;
     margin-top: 25px;
-        border: black solid;
+    margin-bottom: 5px;
+    border: black solid;
 }
 .btn-50{
     width: 40%;
@@ -196,9 +198,9 @@
     margin-left: 50px;
     margin-top: 15px;
     margin-right: 50px;
-    border: black solid;
-    font-size: ;
+    border: black solid;   
 }
+
 .despegable{
     width: 50%;
     margin-left: 300px;

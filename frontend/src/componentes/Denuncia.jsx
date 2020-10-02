@@ -17,7 +17,7 @@ function Denuncia() {
              para resolver el tema de los cuidados en la tercera edad. De tal manera que resulta siendo victima de violencia en el hogar, 
              en la sociedad y en las instituciones públicas y privadas.</p>
         </div>
-        <a href=""><img src="https://www.muycomputer.com/wp-content/uploads/2012/10/whatsapp-630x405.jpg" className="img-45" /></a>
+        <a href="https://api.whatsapp.com/send?phone=3005940434"><img src="https://www.muycomputer.com/wp-content/uploads/2012/10/whatsapp-630x405.jpg" className="img-45" /></a>
 
         </>
     );

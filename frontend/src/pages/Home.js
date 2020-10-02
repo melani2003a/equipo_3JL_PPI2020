@@ -2,14 +2,14 @@ import React from 'react';
 import '../Ppi.css';
 import Sesion from '../componentes/Sesion';
 import Footer from '../componentes/Footer';
-import Header from '../componentes/Header';
+import Header_2 from '../componentes/Header_';
 
 
 function Home() {
   return (
    <>
    <div className="App">
-            <Header/>
+            <Header_2/>
             <Sesion/>
             <Footer/>
 

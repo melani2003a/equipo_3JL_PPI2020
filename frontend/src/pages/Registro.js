@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../componentes/Header';
+import Header_2 from '../componentes/Header_';
 import '../Ppi.css';
 import Footer from '../componentes/Footer';
 import Registro from '../componentes/Registro';
@@ -8,7 +8,7 @@ import Registro from '../componentes/Registro';
 function Register() {
     return (
         <>
-        <Header/>
+        <Header_2/>
         <Registro/>
         <Footer/>
      

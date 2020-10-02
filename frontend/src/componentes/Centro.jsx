@@ -4,6 +4,7 @@ function Centro() {
     return (
 
     <>
+    
         <h1 className="hijo"> CENTRO DE AYUDA</h1>
         <button type="submit" className="btn-6 btn-ligth"> Politicas De Privacidad </button>
         <button type="submit" className="btn-6 btn-ligth"> Preguntas Frecuentes </button>
