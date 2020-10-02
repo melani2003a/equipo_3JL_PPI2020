@@ -13,21 +13,23 @@ function Header () {
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-     <Link to="/derechos">
-      <a class="nav-link active" href="#">Derechos</a>
+        
+     <Link to="/deberes">
+      <a class="nav-link active" href="#">Deberes</a>
       </Link>
-      <Link to="/denuncia">
+
+      <Link to="/denuncia-1">
       <a class="nav-link active" href="#">Denuncia</a>
       </Link>
-      <Link to="/leyes">
-      <a class="nav-link active" href="#">Leyes</a>
-      </Link>
-      <Link to="/ayuda">
+
+       <Link to="/ayuda_1">
       <a class="nav-link active" href="#">Ayuda</a>
       </Link>
-      <Link to="/configuracion">
+
+      <Link to="/configuracion-1">
       <a class="nav-link active" href="#">Configuracion</a>
       </Link>
+
       <Link to="/">
       <a class="nav-link active" href="#">Cerrar Sesion</a>
       </Link>

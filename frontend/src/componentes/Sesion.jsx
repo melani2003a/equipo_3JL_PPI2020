@@ -14,7 +14,7 @@ function Sesion() {
     <label for="exampleInputPassword1"></label>
     <input type="password" className="form-control" placeholder="Contraseña" id="exampleInputPassword1"/>
   </div>
-  <Link to="/bienvenido">
+  <Link to="/roles">
     <button type="submit" className="btn-1 btn-danger">INICIAR SESIÓN</button>
     </Link>
 </form>

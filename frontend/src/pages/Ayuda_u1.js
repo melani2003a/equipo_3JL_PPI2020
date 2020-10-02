@@ -1,18 +1,19 @@
 import React from 'react';
 import Footer from '../componentes/Footer';
 import Header from '../componentes/Header_1';
-import Bienido from '../componentes/Bienido';
-import '../Ppi.css';
+import Ayu_u from '../componentes/Ayuda_u';
 
 
-function Prin (){
+
+
+function Ayuda_1() {
     return (
         <>
         <Header/>
-        <Bienido/>
-        <Footer/>
-        
+        <Ayu_u/>
+         <Footer/>
         </>
     );
+    
 }
-export default Prin;
+export default Ayuda_1;
