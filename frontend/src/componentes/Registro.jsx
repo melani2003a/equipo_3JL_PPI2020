@@ -28,6 +28,7 @@ function Registro() {
   <Link to="/roles">
   <button type="submit" className="btn-5 btn-dark">REGISTRARSE</button>
   </Link>
+  
   </form>
        </> 
     );

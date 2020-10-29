@@ -14,6 +14,7 @@ import Adulto_2 from '../pages/DbAdulto_2';
 import Adulto_3 from '../pages/DbAdulto_3';
 import Adulto_4 from '../pages/DbAdulto_4';
 import Le from '../pages/Leyes';
+import Prog from '../pages/Programas';
 import Ayuda from '../pages/Ayuda_u';
 import Cent from '../pages/CentronAyuda';
 
@@ -42,6 +43,7 @@ function App() {
    <Route exact path="/configuracion" component={Ayuda}/>
    <Route path="/ayuda" component={Cent}/>
    <Route exact path="/roles" component={Roles}/>
+   <Route exact path="/programas" component={Prog}/>
    <Route exact path="/registro" component={Register}/>
 
 

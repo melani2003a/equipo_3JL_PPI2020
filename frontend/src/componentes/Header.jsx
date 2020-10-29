@@ -19,6 +19,9 @@ function Header () {
       <Link to="/denuncia">
       <a class="nav-link active" href="#">Denuncia</a>
       </Link>
+      <Link to="/programas">
+      <a class="nav-link active" href="#">Programas</a>
+      </Link>
       <Link to="/leyes">
       <a class="nav-link active" href="#">Leyes</a>
       </Link>
