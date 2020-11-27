@@ -20,7 +20,7 @@ class Form_denuncia extends Component{
       };
     }
   peticionGet=()=>{
-    axios.get('https://Servicios.melani2003a.repl.co/api/denuncias/getdenunica')
+    axios.get('https://Servicios.melani2003a.repl.co/api/denuncias/getdenuncia')
     .then(res=>{
       console.los(res.data)
      this.setState({
@@ -34,9 +34,9 @@ class Form_denuncia extends Component{
   }
   peticionPost= async ()=>{
     delete this.state.form.id;
-    await axios.post('https://Servicios.melani2003a.repl.co/api/denuncias/postnueva', this.state.form)
+    await axios.post('https://Servicios.melani2003a.repl.co/api/denuncias/nueva', this.state.form)
     .then(res=>{
-      //this.formularioInsertar();
+      this.formularioInsertar();
       this.peticionGet(); 
     }).catch(error=>{
       console.log(error.message) 
@@ -80,14 +80,16 @@ class Form_denuncia extends Component{
             <label htmlFor="ID">ID: <span className="obligate text-primary">*</span></label>
             <input type="text" className="form-control mb-2"  required=""  name="id" id="id" onChange={this.handleChange} value={this.state.dataUser.length+1}
               />
+            
+   
            <label htmlFor="Name">descripcion_denuncia:<span className="obligate text-primary">*</span></label>
            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  required=""  name="descripcion_denuncia"  onChange={this.handleChange} value={datosForm.descripcion_denuncia}
                />
-        
-           <label For="Type">correoElectronico:<span className="obligate text-primary">*</span></label>
-           <input type="email" className="form-control "  required=""  name="correo" id="exampleInputEmail2" onChange={this.handleChange} value={datosForm.correo}
-           />
-          
+            
+            <label htmlfor="exampleInputEmail1">correoelectronico<span className="obligate text-primary">*</span></label>
+            <input type="email" className="form-control "  required=""  name="correoelectronico"  onChange={this.handleChange} value={datosForm.correo}/>
+           
+                    
             <label htmlFor="Telefono">telefono: <span className="obligate text-primary">*</span></label>
             <input type="zip" className="form-control mb-2" id="zip"  name="telefono" onChange={this.handleChange} value={datosForm.telefono}
                />

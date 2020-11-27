@@ -91,8 +91,8 @@ peticionPost= async ()=>{
           <input type="text" className="form-control mb-2"  required=""  name="apellidos"  onChange={this.handleChange} value={datosForm.apellidos}
              />
 
-         <label For="Type">correoElectronico:<span className="obligate text-primary">*</span></label>
-         <input type="email" className="form-control "  required=""  name="correo" id="exampleInputEmail" onChange={this.handleChange} value={datosForm.correo}
+         <label htmlFor="Type">correoElectronico:<span className="obligate text-primary">*</span></label>
+         <input type="email" className="form-control "  required=""  name="correoElectronico"  onChange={this.handleChange} value={datosForm.correo}
           />
         
           <label htmlFor="Description">contraseña: <span className="obligate text-primary">*</span></label>
