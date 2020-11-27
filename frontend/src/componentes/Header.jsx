@@ -25,12 +25,6 @@ function Header () {
       <Link to="/leyes">
       <a class="nav-link active" href="#">Leyes</a>
       </Link>
-      <Link to="/ayuda">
-      <a class="nav-link active" href="#">Ayuda</a>
-      </Link>
-      <Link to="/configuracion">
-      <a class="nav-link active" href="#">Configuracion</a>
-      </Link>
       <Link to="/">
       <a class="nav-link active" href="#">Cerrar Sesion</a>
       </Link>

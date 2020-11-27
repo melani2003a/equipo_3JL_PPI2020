@@ -1,18 +1,20 @@
 import React from 'react';
 import Header from '../componentes/Header';
 import Footer from '../componentes/Footer';
-import Actividad from '../componentes/Act';
+import Form_denuncia from '../componentes/Form_denuncia';
 
 
-function Act(){
+function Den_for() {
     return (
         <>
         <Header/>
-        <Actividad/>
-            
+        <Form_denuncia/>
+        <Footer/>
+        
+        
 
         </>
     );
-
+    
 }
-export default Act;
+export default Den_for;

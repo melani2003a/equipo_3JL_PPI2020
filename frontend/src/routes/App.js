@@ -5,6 +5,7 @@ import Pantalla from '../pages/Pantalla';
 import Home from '../pages/Home';
 import Register from '../pages/Registro';
 import Den from '../pages/Denuncia';
+import Den_for from '../pages/form_denuncia';
 
 //Adulto Mayor
 import Bienido from '../pages/Principal_1';
@@ -15,14 +16,10 @@ import Adulto_3 from '../pages/DbAdulto_3';
 import Adulto_4 from '../pages/DbAdulto_4';
 import Le from '../pages/Leyes';
 import Prog from '../pages/Programas';
-import Ayuda from '../pages/Ayuda_u';
-import Cent from '../pages/CentronAyuda';
 
 //Familiar O Amigo
 import Deb from '../pages/Deberes';
 import Roles from '../pages/Roles';
-import Ayuda_1 from '../pages/Ayuda_u1';
-import Cent_1 from '../pages/CentroAyuda_1';
 import Den_1 from '../pages/Denuncia_1';
 
 function App() {
@@ -40,17 +37,15 @@ function App() {
    <Route exact path="/derechos2" component={Adulto_3}/>
    <Route exact path="/derechos3" component={Adulto_4}/>
    <Route exact path="/leyes" component={Le}/>
-   <Route exact path="/configuracion" component={Ayuda}/>
-   <Route path="/ayuda" component={Cent}/>
    <Route exact path="/roles" component={Roles}/>
    <Route exact path="/programas" component={Prog}/>
    <Route exact path="/registro" component={Register}/>
+   <Route path="/formulario" component={Den_for}/>
 
 
    <Route exact path="/deberes" component={Deb}/>
-   <Route exact path="/configuracion-1" component={Ayuda_1}/>
-   <Route extac path="/ayuda_1" component={Cent_1}/>
    <Route extact path="/denuncia-1" component={Den_1}/>
+   
 
 
 

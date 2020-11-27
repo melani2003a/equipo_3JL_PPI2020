@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-function Footer(){
+function Footer_(){
     return(
         <>.
-        <footer className="footer">
+        <footer className="footerh">
            
        </footer>
         </>
@@ -12,4 +12,4 @@ function Footer(){
     );
 }
 
-export default Footer;
+export default Footer_;

@@ -1,6 +1,9 @@
 .ul {
     display: inline-block;
 }
+.header{
+    background-color: coral;
+}
  .form-group{
      margin-left: 50px;
      margin-right: 50px;
@@ -13,10 +16,20 @@
      font-size: 20px;
  }
  .btn-1{
-     width: 50%;
-     margin-left: 100px;
+     width: 25%;
+     margin-top: 50px;
+     margin-left: 480px;
+     margin-bottom: 215px;
      border: black solid;
 
+ }
+
+ .btn-120{
+     width: 25%;
+     margin-top: 25px;
+     margin-left: 100px;
+     margin-bottom: 10px;
+     border: black solid;
  }
  .contenedor {
     text-align: center;
@@ -41,7 +54,7 @@
 }
 .card-img-1{
     margin-left: 30px;
-    height: 10%;
+    height: 50%;
     width: 80%;
 }
 .btn-6{
@@ -75,8 +88,8 @@
     margin-left: 15px;
 }
 .card-img-2{
-    margin-left: 30px;
-    height: 10%;
+    margin-left: 20px;
+    height: 50%;
     width: 80%;
     
 }
@@ -118,10 +131,11 @@
     border: black solid;
 
 }
-.container{
+.footer {
     
-    width:100%;
-    height:120px;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
     background-color:black;
 }
 
@@ -159,16 +173,19 @@
     border: black solid;
 }
 .btn-50{
-    width: 40%;
+    width: 10%;
     margin-left: 50px;
-    margin-top: 20px;
-    margin-right: 50px;
+    margin-right: 25px;
     border: black solid;
 }
 .img-80{
-    margin-bottom: 15%;
-    width: 100%;
+    margin-bottom: 25px;
+        width: 100%;
 }
+.btn-115{
+    margin-left: 50%;
+}
+
 .img-81{
     width: 100%;
     margin-top: 15%;
@@ -177,20 +194,17 @@
 .btn-group{
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 10px;
     width: 80%;
+    margin-top: 10px;
     border: black solid;
 
 }
-.cuerpo{
-    background-color:  #ffb366;
-    height:  10000%;
-   
 
-}
 .btn-51{
-    width: 30%;
-    margin-top: 15px;
+    width: 10%;
     margin-left: 50px;
+    margin-bottom: 30px;
     border: black solid;
 }
 .btn-52{
@@ -210,10 +224,28 @@
     border: black solid;
 
 }
+.card{
+    margin-left: 15px;
+    margin-right: 10px;
+    border: black solid;
+}
+.card-body_1{
+    margin-top: 30px;
+    text-align: justify;
+    margin-left: 20px;
+}
+.imagen{
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+}
 
 .img-hola{
-    width: 100%;
-    margin-top: 150px;
+    width: 25%;
+    margin-top: 15px;
+    margin-left: 500px;
 }
 .card-img-top-18{
     margin-left: 80px;
@@ -286,9 +318,9 @@
 }
 
 .img-2{
-    margin-left: 40px;
+    margin-left: 40%;
     margin-top: 15px;
-    width: 80%;
+    width: 20%;
     height: 800%;
 }
 .img-1{
@@ -312,7 +344,7 @@
     margin-left: 50px;
     margin-top: 30px;
     margin-bottom: 90px;
-    margin-right: 50px;
+    margin-right: px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
     font-size: 31.2px;
@@ -358,10 +390,39 @@
 
     
  }
+.footerh{
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color:black;
 
- 
-
-
+}
+.Formulario{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+.Formulario_1{
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+.card-body-2{
+    height: 100px;
+    width: 1150px;
+    border: black solid;
+}
+.card-text{
+    margin-left: 5px;
+}
+.card-title_5{
+    text-align: center;
+}
+.btn-11{
+    margin-top: 20px;
+    margin-left: 45%;
+    margin-bottom: 10px;
+}
 
 
 
