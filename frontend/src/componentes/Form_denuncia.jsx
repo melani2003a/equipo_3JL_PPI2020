@@ -20,7 +20,7 @@ class Form_denuncia extends Component{
       };
     }
   peticionGet=()=>{
-    axios.get('https://Servicios.melani2003a.repl.co/api/denuncias/getdenuncia')
+    axios.get('https://oav-back.herokuapp.com/denuncias/getdenuncia')
     .then(res=>{
       console.los(res.data)
      this.setState({
@@ -34,7 +34,7 @@ class Form_denuncia extends Component{
   }
   peticionPost= async ()=>{
     delete this.state.form.id;
-    await axios.post('https://Servicios.melani2003a.repl.co/api/denuncias/nueva', this.state.form)
+    await axios.post('https://oav-back.herokuapp.com/api/denuncias/nueva', this.state.form)
     .then(res=>{
       //this.formularioInsertar();
       this.peticionGet(); 

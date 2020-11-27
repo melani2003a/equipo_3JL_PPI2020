@@ -34,7 +34,7 @@ peticionGet=()=>{
 }
 peticionPost= async ()=>{
   delete this.state.form.id;
-  await axios.post('https://Servicios.melani2003a.repl.co/api/nuevo-registro', this.state.form)
+  await axios.post('https://oav-back.herokuapp.com/api/nuevo-registro', this.state.form)
   .then(res=>{
     //this.formularioInsertar();
     this.peticionGet(); 

@@ -16,7 +16,7 @@ class Sesion extends Component{
     };
   }
 peticionGet=()=>{
-  axios.get('https://Servicios.melani2003a.repl.co/api/usuario')
+  axios.get('https://oav-back.herokuapp.com/api/usuario')
   .then(res=>{
     console.los(res.data)
    this.setState({
