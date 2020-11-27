@@ -13,14 +13,14 @@ class Form_denuncia extends Component{
         form: {
           id: '',
           descripcion_denuncia: '',
-          correoElectronico:'',
+          correoelectronico:'',
           telefono:'',
           id_Usuario:'',
         }
       };
     }
   peticionGet=()=>{
-    axios.get('https://oav-back.herokuapp.com/denuncias/getdenuncia')
+    axios.get('https://Servicios.melani2003a.repl.co/api/denuncias/getdenunica')
     .then(res=>{
       console.los(res.data)
      this.setState({
@@ -34,7 +34,7 @@ class Form_denuncia extends Component{
   }
   peticionPost= async ()=>{
     delete this.state.form.id;
-    await axios.post('https://oav-back.herokuapp.com/api/denuncias/nueva', this.state.form)
+    await axios.post('https://Servicios.melani2003a.repl.co/api/denuncias/postnueva', this.state.form)
     .then(res=>{
       //this.formularioInsertar();
       this.peticionGet(); 
@@ -66,14 +66,14 @@ class Form_denuncia extends Component{
    
    
      render () {
-       console.log(this.state.dataPet);
+       console.log(this.state.dataUser);
        console.log(this.props.numero);
        const datosForm = this.state.form
 
        return(
         <div className="">
         
-          <form className="Formulario_1" /*action="mailto:melodialvarez18@gmail.com"*/>
+          <form className="Formulario_1">
           <h3 className="text-center pb-3 text-primary"> Denuncia</h3>
           <div className="mx-auto">
 

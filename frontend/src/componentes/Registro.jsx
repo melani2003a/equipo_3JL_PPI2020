@@ -20,7 +20,7 @@ class Registro extends Component{
     };
   }
 peticionGet=()=>{
-  axios.get('https://oav-back.herokuapp.com/api/usuario')
+  axios.get('https://Servicios.melani2003a.repl.co/api/usuario')
   .then(res=>{
     console.los(res.data)
    this.setState({
@@ -34,7 +34,7 @@ peticionGet=()=>{
 }
 peticionPost= async ()=>{
   delete this.state.form.id;
-  await axios.post('https://oav-back.herokuapp.com/api/nuevo-registro', this.state.form)
+  await axios.post('https://Servicios.melani2003a.repl.co/api/nuevo-registro', this.state.form)
   .then(res=>{
     //this.formularioInsertar();
     this.peticionGet(); 
@@ -66,7 +66,7 @@ peticionPost= async ()=>{
  
  
    render () {
-     console.log(this.state.dataPet);
+     console.log(this.state.dataUser);
      console.log(this.props.numero);
      const datosForm = this.state.form
    
