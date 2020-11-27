@@ -73,7 +73,7 @@ class Form_denuncia extends Component{
        return(
         <div className="">
         
-          <form className="Formulario_1" action="mailto:melodialvarez18@gmail.com">
+          <form className="Formulario_1" /*action="mailto:melodialvarez18@gmail.com"*/>
           <h3 className="text-center pb-3 text-primary"> Denuncia</h3>
           <div className="mx-auto">
 

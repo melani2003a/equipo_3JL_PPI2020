@@ -104,7 +104,7 @@ peticionPost= async ()=>{
     
         
                  <Link to="/roles">
-                 <button className="btn btn-primary btn-s btn-block mx-auto col-4 mt-4 mb-5" onClick={()=>this.peticionPost()}>
+                 <button className="btn-26 btn-primary btn-s btn-block mx-auto col-4 mt-4 mb-5" onClick={()=>this.peticionPost()}>
                   Registrarse</button>
                   </Link>
          
